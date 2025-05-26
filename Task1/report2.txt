@@ -1,0 +1,15 @@
+# Nmap 7.95 scan initiated Mon May 26 18:54:37 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -O -Pn -p- -oN report2.txt 192.168.1.4
+Nmap scan report for 192.168.1.4
+Host is up (0.000046s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+1716/tcp open  tcpwrapped
+3443/tcp open  ssl/http   Ajenti http control panel
+Device type: general purpose
+Running: Linux 2.6.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:5 cpe:/o:linux:linux_kernel:6
+OS details: Linux 2.6.32, Linux 5.0 - 6.2
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon May 26 18:54:52 2025 -- 1 IP address (1 host up) scanned in 15.33 seconds
